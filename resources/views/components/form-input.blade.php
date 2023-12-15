@@ -1,0 +1,1 @@
+<input {{ $attributes->merge(['type' => $type, 'spellcheck' => 'false', 'id' => !empty($id) ? $id : null, 'name' => $name, 'value' => $value])->class(['form-control', 'is-invalid' => $hasError($name) ]) }}>
