@@ -23,15 +23,11 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "ext-json": "*",
+        "illuminate/config": "^10.0",
+        "illuminate/support": "^10.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DirectsoftRo\\LaravelBootstrapComponents\\BootstrapComponentsServiceProvider"
-            ]
-        }
-    }
+    "prefer-stable": true
 }

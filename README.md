@@ -17,7 +17,7 @@ Add service provider to config
 
 ```php
 // config/app.php
-DirectsoftRo\LaravelBootstrapComponents\Providers\BootstrapComponentsServiceProvider::class
+DirectsoftRo\LaravelBootstrapComponents\Providers\ApplicationServiceProvider::class
 ```
 
 ## Components

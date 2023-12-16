@@ -13,7 +13,7 @@ use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormTextarea;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
-class BootstrapComponentsServiceProvider extends ServiceProvider
+class ApplicationServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
