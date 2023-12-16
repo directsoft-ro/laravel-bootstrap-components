@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Directsoft\LaravelBootstrapComponents\Views\Components;
+namespace DirectsoftRo\LaravelBootstrapComponents\Views\Components;
 
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\MessageBag;

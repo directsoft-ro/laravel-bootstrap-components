@@ -11,7 +11,7 @@
     "homepage": "https://github.com/directsoft-ro/laravel-bootstrap-components",
     "autoload": {
         "psr-4": {
-            "Directsoft\\LaravelBootstrapComponents\\": "src/"
+            "DirectsoftRo\\LaravelBootstrapComponents\\": "src/"
         }
     },
     "authors": [
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Directsoft\\LaravelBootstrapComponents\\BootstrapComponentsServiceProvider"
+                "DirectsoftRo\\LaravelBootstrapComponents\\BootstrapComponentsServiceProvider"
             ]
         }
     }

@@ -1,15 +1,15 @@
 <?php
 
-namespace Directsoft\LaravelBootstrapComponents\Providers;
+namespace DirectsoftRo\LaravelBootstrapComponents\Providers;
 
-use Directsoft\LaravelBootstrapComponents\Views\Components\Form;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormError;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormGroup;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormInput;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormLabel;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormSelect;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormText;
-use Directsoft\LaravelBootstrapComponents\Views\Components\FormTextarea;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\Form;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormError;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormGroup;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormInput;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormLabel;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormSelect;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormText;
+use DirectsoftRo\LaravelBootstrapComponents\Views\Components\FormTextarea;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 

@@ -13,6 +13,13 @@
 composer require directsoft-ro/laravel-bootstrap-components
 ```
 
+Add service provider to config
+
+```php
+// config/app.php
+DirectsoftRo\LaravelBootstrapComponents\Providers\BootstrapComponentsServiceProvider::class
+```
+
 ## Components
 
 ### Form
