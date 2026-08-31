@@ -7,15 +7,19 @@
 ])
 
 @php
-    $classes = [
+    if (isset($name)) {
+        $invalid = $errors->has($name);
+    }
+
+    $attributes = $attributes->class([
         'form-select',
         'form-select-lg' => $large,
         'form-select-sm' => $small,
         'is-invalid' => $invalid,
-    ];
+    ]);
 @endphp
 
-<select {{ $attributes->class($classes) }}>
+<select {{ $attributes }}>
     @if(!empty($placeholder))
         <option value="">{{ $placeholder }}</option>
     @endif

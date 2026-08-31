@@ -7,6 +7,10 @@
 ])
 
 @php
+    if (isset($name)) {
+        $invalid = $errors->has($name);
+    }
+
     $attributes = $attributes->merge([
         'type' => $type,
         'spellcheck' => $spellcheck,
