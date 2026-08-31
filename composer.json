@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "directsoft/laravel-bootstrap-components",
     "description": "Laravel Bootstrap 5 Components",
-    "type": "project",
+    "type": "library",
     "keywords": [
         "laravel",
         "directsoft",
